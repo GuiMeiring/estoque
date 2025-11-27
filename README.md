@@ -1,10 +1,10 @@
-# 📦 Sistema de Controle de Estoque – Spring Boot
+# Sistema de Controle de Estoque – Spring Boot
 
 Projeto desenvolvido para o **Trabalho Final de Programação Server-Side**, utilizando **Spring Boot**, **Thymeleaf**, **JPA/Hibernate**, **REST API** e **Banco H2 em arquivo**.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 - Java 21
 - Spring Boot
 - Spring Web
@@ -15,7 +15,7 @@ Projeto desenvolvido para o **Trabalho Final de Programação Server-Side**, uti
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 src/
  ├── main/java/br/org/catolicasc/estoque
@@ -32,7 +32,7 @@ src/
 
 ---
 
-# ▶️ Como executar o projeto
+# Como executar o projeto
 
 ### **1. Clonar o repositório**
 ```bash
@@ -48,11 +48,11 @@ mvn spring-boot:run
 ### **3. Acessar a aplicação (telas Thymeleaf)**
 Abra no navegador:
 
-👉 **http://localhost:8080**
+**http://localhost:8080**
 
 ---
 
-# 🧪 Como executar os testes
+# Como executar os testes
 
 ### **Rodar todos os testes**
 ```bash
@@ -68,12 +68,12 @@ Os testes utilizam o **SpringBootTest** e acessam o repositório com H2 em memó
 
 ---
 
-# 🗄️ Acessando o banco H2
+# Acessando o banco H2
 
 ### **1. Console H2**
 Após subir a aplicação:
 
-👉 **http://localhost:8080/h2-console**
+**http://localhost:8080/h2-console**
 
 ### **2. Configuração de acesso**
 Use:
@@ -91,7 +91,7 @@ No console H2:
 
 ---
 
-# 🌐 API REST (exemplos)
+# API REST
 
 Os endpoints REST seguem o padrão `/api/produtos`.
 
@@ -129,7 +129,7 @@ DELETE /api/produtos/{id}
 
 ---
 
-# 🖥️ CRUD com Thymeleaf
+# CRUD com Thymeleaf
 
 As telas seguem o padrão MVC:
 
@@ -148,7 +148,17 @@ src/main/resources/templates/produtos/
 
 ---
 
-# 📘 Trabalho Final – Informações
+# Documentação da API – Swagger / OpenAPI
+
+O projeto utiliza Springdoc OpenAPI 3 para gerar automaticamente a documentação da API REST.
+
+### **Como acessar o Swagger UI**
+
+Depois de subir a aplicação:
+
+**http://localhost:8080/swagger-ui.html**
+
+# Trabalho Final – Informações
 
 ### **TEMA DO PROJETO**  
 Sistema Web de Controle de Estoque
@@ -164,5 +174,5 @@ Inclui interface com Thymeleaf, API REST para integração externa e persistênc
 
 ---
 
-# 📄 Licença
+# Licença
 Projeto acadêmico – uso livre para fins educacionais.
